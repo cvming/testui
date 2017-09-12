@@ -10,8 +10,8 @@ body{
 }
 
 #container {
-    border-left: 3px red solid;
-    border-right: 3px red solid;
+    border-left: 1px red solid;
+    border-right: 1px red solid;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -19,27 +19,24 @@ body{
     align-items: stretch;
 }
 #header {
-    border: 1px blue solid;
     flex:0 0 50px;
 }
 #content {
- border: 1px blue solid;
  flex: 1 1 100%;
  display: flex;
  flex-direction: row;
+ overflow: auto;
 }
 .left-menu {
-    flex: 0 0 200px;
+    width: 120px;
     border: 1px blue solid;
-    overflow-y:auto;
 }
 .main-content {
-  flex: 1 1 100%;
-  border: 1px blue solid;
-  overflow:auto;
+  border: 1px red solid;
+  width: 100%;
+  overflow: auto;
 }
 
 #footer {
-     border: 1px blue solid;
      flex: 0 0 50px;
 }

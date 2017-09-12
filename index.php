@@ -13,7 +13,11 @@
     </div>
     <div id="content">
       <div class="left-menu">left menu</div>
-      <div class="main-content"> main content</div>
+      <div class="main-content">
+        <div style="height: 2000px; background: #ccc">
+            content
+        </div>
+      </div>  
     </div>
     <div id="footer">footer</div>
 
