@@ -30,9 +30,7 @@
 	   <hr/>
 	   <div id="capture" style="margin-left:100px;">
 		<div style="margin-lef: 50px;">
-			<h1>
-				please check the details for more options on the website:</h1>
-			<a href="http://html2canvas.hertzen.com/">http://html2canvas.hertzen.com/</a>
+			
 			<br> <br>
 	   </div>
 		<button onclick="drawcanvas()">Click me for draw</button>
